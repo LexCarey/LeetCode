@@ -1,1 +1,1 @@
-This repository is a dump of my personal Leetcode solutions!
+This repository is full of all my latest LeetCode algorithm solutions.
