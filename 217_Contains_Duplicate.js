@@ -3,9 +3,9 @@
  * @return {boolean}
  */
 var containsDuplicate = function(nums) {
-    let dupeMap = new Map()
+    let dupeSet = new Set()
     for (let n in nums) {
-        if (!dupeMap.has(nums[n])) dupeMap.set(nums[n])
+        if (!dupeSet.has(nums[n])) dupeSet.add(nums[n])
         else return true
     }
     return false
